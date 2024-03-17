@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Iris Classification</title>
+</head>
+
+<body>
+    <h2>Iris Classification</h2>
+    <form action="/predict" method="post">
+        <input type="text" name="sepal_length" placeholder="Sepal Length" required="required" />
+        <input type="text" name="sepal_width" placeholder="Sepal Width" required="required" />
+        <input type="text" name="petal_length" placeholder="Petal Length" required="required" />
+        <input type="text" name="petal_width" placeholder="Petal Width" required="required" />
+        <button type="submit">Predict</button>
+    </form>
+    {% if prediction_text %}
+    <h3>{{ prediction_text }}</h3>
+    {% endif %}
+</body>
+
+</html>
