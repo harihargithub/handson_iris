@@ -54,3 +54,5 @@ if __name__ == '__main__':
 (base) PS C:\Users\nhari\OneDrive\workspace-spring-tool-suite-4-4.19.0.RELEASE\ems_springboot_react_vite_mysql_sf\web dev fwork\flask\handson_iris> 
 (base) PS C:\Users\nhari\OneDrive\workspace-spring-tool-suite-4-4.19.0.RELEASE\ems_springboot_react_vite_mysql_sf\web dev fwork\flask\handson_iris> Invoke-RestMethod -Uri http://127.0.0.1:5000/predict -Method Post -Body $body -ContentType 'application/json'
 Iris-setosa
+
+@ br1 220324 0833
